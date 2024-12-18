@@ -9,7 +9,8 @@ screen.title("Pong")
 screen.tracer(0)
 
 
-player1 = Paddle()
+player1 = Paddle(x_position=350, y_position=0)
+player2 = Paddle(x_position=-350, y_position=0)
 
 
 screen.listen()
