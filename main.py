@@ -1,5 +1,7 @@
+from mailbox import Babyl
 from turtle import Screen
 from Paddle import Paddle
+from Ball import Ball
 import time
 
 screen = Screen()
@@ -11,6 +13,7 @@ screen.tracer(0)
 
 player1 = Paddle(x_position=350, y_position=0)
 player2 = Paddle(x_position=-350, y_position=0)
+ball = Ball()
 
 
 screen.listen()
