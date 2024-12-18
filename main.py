@@ -16,6 +16,8 @@ player2 = Paddle(x_position=-350, y_position=0)
 screen.listen()
 screen.onkey(player1.move_up, "Up")
 screen.onkey(player1.move_down, "Down")
+screen.onkey(player2.move_up, "w")
+screen.onkey(player2.move_down, "s")
 
 game_on = True
 while game_on:
